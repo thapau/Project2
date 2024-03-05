@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment#2 for Umesh Thapa</title>
+    <style>
+        h1, h3{text-align: center; color: rgb(65, 94, 224); background-color: rgb(126, 228, 185);}
+        body {background-color: rgb(145, 179, 144);}
+        .btn {width: 5cm;}
+        #submit {color: rgb(255, 5, 5); background-color: blanchedalmond; font-weight: bold;}
+        #reset {color: rgb(255, 5, 5); background-color: blanchedalmond; font-weight: bold;}
+        label {font-size: large; color: rgb(0, 0, 0);}
+        #result {font-size: large; font-weight: bold;}
+        p {font-size: x-large; font-weight: bolder ; }
+    </style>
+</head>
+<body>
+  
+ <center><form>
+<p>Unit Converter</p>
+<label>Enter a Number !!<br>
+        <input type="number" id="value1" size="50px" ></label><br><br>
+        <input type="button" value="Convert" id="submit" class="btn">
+        <button id="reset" onclick="resetFunction()" class="btn" onmouseup="mouseUp()"> Clear</button><br>
+        <p id="result">Answer</p></form>
+  
+        <table>
+            <tr><td><input type="button" value="Ounce to Milliliter " id="ozToMl" class="btn"></td>
+                <td><input type="button" value="Milliliter to Ounce" id="mlToOz" class="btn"></td>
+            </tr>
+            <tr><td><input type="button" value="Liter to Milliliter "  id="ltToMl" class="btn"></td>
+                <td><input type="button" value="Milliliter to Liter"  id="mlTolt" class="btn"></td>
+            </tr>    
+            <tr><td><input type="button" value="Inches to Centimeters " id="inToCm" class="btn"></td>
+                <td><input type="button" value="Centimeters to Inches" id="cmToIn" class="btn"></td>
+            </tr>   
+            <td><input type="button" value="Pounds to Kilograms " id="lbToKg" class="btn"></td>
+            <td><input type="button" value="Kilograms to Pounds" id="kgToLb" class="btn"></td>
+        </table>         
+ </center>
+<br><br>
+<script src = "_jscripts/scripts.js"></script>
+</body>
+</html>
